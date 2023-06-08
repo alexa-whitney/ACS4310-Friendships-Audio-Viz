@@ -5,9 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Friendships Audio Visualizer</title>
+    <style>
+        body, html {
+          height: 100%;
+          background: #222; /* Dark background */
+          color: #fff; /* Light text color */
+          font-family: 'Arial', sans-serif; /* Setting a font */
+        }
+    
+        body {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+        }
+    
+        #canvas {
+          border: 5px solid #FF5733; /* Vibrant border color */
+          box-shadow: 0 0 10px #FF5733; /* Add some shadow for 3D effect */
+        }
+    
+        button {
+          margin: 25px;
+          padding: 1em;
+          width: 200px;
+          border-radius: 0.25em;
+          border: 2px solid #FFC300; /* Bright border color */
+          background: #FF5733; /* Vibrant background */
+          color: #fff; /* Light text color */
+          font-size: 1.2em; /* Increase font size */
+          transition: background 0.3s, transform 0.3s; /* Add transitions for interactivity */
+        }
+    
+        button:hover {
+          background: #FFC300; /* Change color on hover */
+          transform: scale(1.1); /* Slightly enlarge the button on hover */
+        }
+    
+        button:active {
+          transform: scale(0.9); /* Shrink the button when clicked */
+        }
+    </style>
+    
   </head>
   <body>
-    <canvas id="canvas" width="300" height="300"></canvas>
+    <canvas id="canvas" width="700" height="300"></canvas>
     <button id="button-play">Play</button>
     <script src="main.js" type="module"></script>
   </body>
