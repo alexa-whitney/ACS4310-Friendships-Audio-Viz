@@ -13,8 +13,7 @@ import verticalBarsMonoRenderer from './verticalBarsMonoRenderer.js'
 import radialRayRenderer from './radialRayRenderer.js'
 
 
-// --------------------------------------------------------
-// Canvas
+// --------------------Canvas-------------------------------// 
 
 // Get reference to the canvas context for use by the 
 // renderers below
@@ -22,8 +21,7 @@ const canvas = document.getElementById('canvas')
 const ctx = canvas.getContext('2d')
 
 
-// ----------------------------------------------------------
-// Buttons 
+// -------------------Buttons-------------------------------//
 const playButton = document.getElementById('button-play')
 const pauseButton = document.getElementById('button-pause')
 
@@ -36,8 +34,7 @@ pauseButton.addEventListener('click', (e) => {
 })
 
 
-// --------------------------------------------------------
-// Audio setup
+// ----------------Audio Setup-----------------------------//
 
 // Defime some variables 
 let analyser
@@ -81,9 +78,9 @@ function render() {
 	
 	// Use one of the renderers below 
 	// radialRayRenderer(frequencyArray, ctx, centerX, centerY, radius)
-	// verticalBarsMonoRenderer(frequencyArray, ctx, 12, 300, 300)
-	verticalBarsRenderer(frequencyArray, ctx, 300, 300)
-	// circleCenterRenderer(frequencyArray, ctx, centerX, centerY)
+	verticalBarsMonoRenderer(frequencyArray, ctx, 12, 300, 300)
+	// verticalBarsRenderer(frequencyArray, ctx, 300, 300)
+	// circleCenterRenderer(frequencyArray, ctx, centerX, centerY, radius)
 	// circleGridRenderer(frequencyArray, ctx, 300, 300)
 	// circleRenderer(frequencyArray, ctx, centerX, centerY, radius)
 
