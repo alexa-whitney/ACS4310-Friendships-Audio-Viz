@@ -6,6 +6,13 @@ This repository hosts an audio visualization project, which takes the song "Frie
 
 The aim of this project is to create a dynamic and immersive audio visualization that captures the essence of the song "Friendships". By utilizing modern technologies such as Web Audio API and D3.js, we transform auditory content into a visually engaging experience. This not only amplifies the appreciation of the song but also provides a unique perspective of visualizing sound.
 
+## Questions Answered by the Visualization
+
+- **What are the frequency characteristics of the sound?** By visualizing the frequency spectrum, you can get a sense of the tonal characteristics of the sound.
+- **What is the dynamic range of the audio?** Visualizations can help you see the range between the quietest and loudest parts of a sound, which is important in audio mixing and mastering.
+- **Are there any specific patterns in the audio?** Certain types of sounds or music might have specific, recognizable patterns that can be visually identified.
+
+
 ## Setup and Installation
 
 ### Prerequisites
@@ -18,18 +25,11 @@ The aim of this project is to create a dynamic and immersive audio visualization
 
 1. Clone this repository to your local machine.
     ```bash
-    git clone https://github.com/username/aural-soundscapes-friendships.git
+    git clone https://github.com/alexa-whitney/ACS4310-Friendships-Audio-Viz.git
     ```
-2. Navigate into the project directory.
-    ```bash
-    cd audio viz
-    ```
-3. Start your local server and open the project in your web browser.
-    ```bash
-    # If using Python's built-in server
-    python -m http.server
-    ```
+2. Ensure you have a modern web browser installed (e.g., Google Chrome, Mozilla Firefox).
+3. Open the `index.html` file in your web browser.
 
 ## Usage
 
-Open the `index.html` file in your web browser to start the visualization. You should see a visual representation of the song "Friendships" by Pascal Letoublon. 
+Open the `index.html` file in your web browser and press the 'Play' button to start the song and initiate the audio visualization. You should see a visual representation of the song "Friendships" by Pascal Letoublon. 
