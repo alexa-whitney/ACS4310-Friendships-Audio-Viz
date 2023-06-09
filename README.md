@@ -1,10 +1,20 @@
 # Audio Visualization - "Friendships" by Pascal Letoublon
 
-This repository hosts an audio visualization project, which takes the song "Friendships" by Pascal Letoublon and transforms it into a captivating visual soundscape.
+This project provides a vibrant, immersive audio visualization for the song "Friendships" by Pascal Letoublon. It transforms the audio experience into a dynamic, multi-colored soundscape.
 
-## Project Description
+![Screenshot](https://imgur.com/QHCKVRW)
 
-The aim of this project is to create a dynamic and immersive audio visualization that captures the essence of the song "Friendships". By utilizing modern technologies such as Web Audio API and D3.js, we transform auditory content into a visually engaging experience. This not only amplifies the appreciation of the song but also provides a unique perspective of visualizing sound.
+## Table of Contents
+
+1. [Introduction](#introduction)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [Technical Information](#technical-information)
+5. [Questions Answered by the Visualization](#questions-answered-by-the-visualization)
+
+## Introduction
+
+This project uses JavaScript and HTML5 Canvas to analyze the frequency data of the song "Friendships" by Pascal Letoublon and create a real-time visualization of the audio.
 
 ## Questions Answered by the Visualization
 
