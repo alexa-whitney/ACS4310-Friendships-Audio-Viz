@@ -2,7 +2,7 @@
 
 This project provides a vibrant, immersive audio visualization for the song "Friendships" by Pascal Letoublon. It transforms the audio experience into a dynamic, multi-colored soundscape.
 
-![Screenshot](https://i.imgur.com/QHCKVRW.png)
+![Screenshot](https://i.imgur.com/nEgecNu.png)
 
 ## Table of Contents
 
