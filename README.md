@@ -2,7 +2,7 @@
 
 This project provides a vibrant, immersive audio visualization for the song "Friendships" by Pascal Letoublon. It transforms the audio experience into a dynamic, multi-colored soundscape.
 
-![Screenshot](https://i.imgur.com/nEgecNu.png)
+![Screenshot](https://i.imgur.com/LjcXHUk.png)
 
 ## Table of Contents
 
@@ -15,7 +15,7 @@ This project provides a vibrant, immersive audio visualization for the song "Fri
 
 ## Introduction
 
-This project uses JavaScript and HTML5 Canvas to analyze the frequency data of the song "Friendships" by Pascal Letoublon and create a real-time visualization of the audio.
+This project uses JavaScript and HTML5 Canvas to analyze the frequency data of the song "Friendships" by Pascal Letoublon and create a real-time "static channel equalizer" visualization of the audio.
 
 ## Questions Answered by the Visualization
 
